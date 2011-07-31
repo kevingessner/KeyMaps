@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	0A09F4DF13E5C702006AE621 /* KeyMaps */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = KeyMaps;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0A09F4ED13E5C719006AE621 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0A09F4EE13E5C719006AE621 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0A09F4DF13E5C702006AE621 /* KeyMaps */;
+		activeTarget = 8D1107260486CEB800E47090 /* KeyMaps */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* KeyMaps */,
+		);
+		codeSenseManager = 0A09F4EE13E5C719006AE621 /* Code sense */;
+		executables = (
+			0A09F4DF13E5C702006AE621 /* KeyMaps */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 333826430;
+			PBXWorkspaceStateSaveDate = 333826430;
+		};
+		sourceControlManager = 0A09F4ED13E5C719006AE621 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* KeyMaps_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 627}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+			sepNavWindowFrame = "{{19, 0}, {1230, 778}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* KeyMaps */ = {
+		activeExec = 0;
+		executables = (
+			0A09F4DF13E5C702006AE621 /* KeyMaps */,
+		);
+	};
+	BCD4FC6A0ECF468A0060B8AA /* KMWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 627}}";
+			sepNavSelRange = "{794, 0}";
+			sepNavVisRange = "{0, 841}";
+			sepNavWindowFrame = "{{19, 0}, {1230, 778}}";
+		};
+	};
+}
