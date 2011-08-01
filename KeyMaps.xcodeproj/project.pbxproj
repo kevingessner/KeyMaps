@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A1ED0FE13E5C8A10061D63F /* DDHidLib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0A09F4EF13E5C723006AE621 /* DDHidLib.framework */; };
-		0A1ED10F13E5C8B40061D63F /* DDHidLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A09F4EF13E5C723006AE621 /* DDHidLib.framework */; };
+		0A8AAC6213E6D43200D783AB /* DDHidAppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC4613E6D43200D783AB /* DDHidAppleRemote.m */; };
+		0A8AAC6313E6D43200D783AB /* DDHidDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC4813E6D43200D783AB /* DDHidDevice.m */; };
+		0A8AAC6413E6D43200D783AB /* DDHidElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC4A13E6D43200D783AB /* DDHidElement.m */; };
+		0A8AAC6513E6D43200D783AB /* DDHidEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC4C13E6D43200D783AB /* DDHidEvent.m */; };
+		0A8AAC6613E6D43200D783AB /* DDHidJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC4E13E6D43200D783AB /* DDHidJoystick.m */; };
+		0A8AAC6713E6D43200D783AB /* DDHidKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5013E6D43200D783AB /* DDHidKeyboard.m */; };
+		0A8AAC6813E6D43200D783AB /* DDHidKeyboardBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5213E6D43200D783AB /* DDHidKeyboardBarcodeScanner.m */; };
+		0A8AAC6913E6D43200D783AB /* DDHidMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5513E6D43200D783AB /* DDHidMouse.m */; };
+		0A8AAC6A13E6D43200D783AB /* DDHidQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5713E6D43200D783AB /* DDHidQueue.m */; };
+		0A8AAC6B13E6D43200D783AB /* DDHidStandardUsages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5813E6D43200D783AB /* DDHidStandardUsages.plist */; };
+		0A8AAC6C13E6D43200D783AB /* DDHidUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5A13E6D43200D783AB /* DDHidUsage.m */; };
+		0A8AAC6D13E6D43200D783AB /* DDHidUsageTables.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5C13E6D43200D783AB /* DDHidUsageTables.m */; };
+		0A8AAC6E13E6D43200D783AB /* NSDictionary+DDHidExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC5E13E6D43200D783AB /* NSDictionary+DDHidExtras.m */; };
+		0A8AAC6F13E6D43200D783AB /* NSXReturnThrowError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AAC6113E6D43200D783AB /* NSXReturnThrowError.m */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -17,23 +29,36 @@
 		BCD4FC9E0ECF487D0060B8AA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD4FC9D0ECF487D0060B8AA /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		BCD4FC820ECF47FE0060B8AA /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0A1ED0FE13E5C8A10061D63F /* DDHidLib.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0A09F4EF13E5C723006AE621 /* DDHidLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DDHidLib.framework; sourceTree = "<group>"; };
+		0A8AAC4513E6D43200D783AB /* DDHidAppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidAppleRemote.h; sourceTree = "<group>"; };
+		0A8AAC4613E6D43200D783AB /* DDHidAppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidAppleRemote.m; sourceTree = "<group>"; };
+		0A8AAC4713E6D43200D783AB /* DDHidDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidDevice.h; sourceTree = "<group>"; };
+		0A8AAC4813E6D43200D783AB /* DDHidDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidDevice.m; sourceTree = "<group>"; };
+		0A8AAC4913E6D43200D783AB /* DDHidElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidElement.h; sourceTree = "<group>"; };
+		0A8AAC4A13E6D43200D783AB /* DDHidElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidElement.m; sourceTree = "<group>"; };
+		0A8AAC4B13E6D43200D783AB /* DDHidEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidEvent.h; sourceTree = "<group>"; };
+		0A8AAC4C13E6D43200D783AB /* DDHidEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidEvent.m; sourceTree = "<group>"; };
+		0A8AAC4D13E6D43200D783AB /* DDHidJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidJoystick.h; sourceTree = "<group>"; };
+		0A8AAC4E13E6D43200D783AB /* DDHidJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidJoystick.m; sourceTree = "<group>"; };
+		0A8AAC4F13E6D43200D783AB /* DDHidKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboard.h; sourceTree = "<group>"; };
+		0A8AAC5013E6D43200D783AB /* DDHidKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidKeyboard.m; sourceTree = "<group>"; };
+		0A8AAC5113E6D43200D783AB /* DDHidKeyboardBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboardBarcodeScanner.h; sourceTree = "<group>"; };
+		0A8AAC5213E6D43200D783AB /* DDHidKeyboardBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidKeyboardBarcodeScanner.m; sourceTree = "<group>"; };
+		0A8AAC5313E6D43200D783AB /* DDHidLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidLib.h; sourceTree = "<group>"; };
+		0A8AAC5413E6D43200D783AB /* DDHidMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidMouse.h; sourceTree = "<group>"; };
+		0A8AAC5513E6D43200D783AB /* DDHidMouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidMouse.m; sourceTree = "<group>"; };
+		0A8AAC5613E6D43200D783AB /* DDHidQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidQueue.h; sourceTree = "<group>"; };
+		0A8AAC5713E6D43200D783AB /* DDHidQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidQueue.m; sourceTree = "<group>"; };
+		0A8AAC5813E6D43200D783AB /* DDHidStandardUsages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DDHidStandardUsages.plist; sourceTree = "<group>"; };
+		0A8AAC5913E6D43200D783AB /* DDHidUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsage.h; sourceTree = "<group>"; };
+		0A8AAC5A13E6D43200D783AB /* DDHidUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidUsage.m; sourceTree = "<group>"; };
+		0A8AAC5B13E6D43200D783AB /* DDHidUsageTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsageTables.h; sourceTree = "<group>"; };
+		0A8AAC5C13E6D43200D783AB /* DDHidUsageTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidUsageTables.m; sourceTree = "<group>"; };
+		0A8AAC5D13E6D43200D783AB /* NSDictionary+DDHidExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DDHidExtras.h"; sourceTree = "<group>"; };
+		0A8AAC5E13E6D43200D783AB /* NSDictionary+DDHidExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DDHidExtras.m"; sourceTree = "<group>"; };
+		0A8AAC6013E6D43200D783AB /* NSXReturnThrowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSXReturnThrowError.h; sourceTree = "<group>"; };
+		0A8AAC6113E6D43200D783AB /* NSXReturnThrowError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSXReturnThrowError.m; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -53,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A1ED10F13E5C8B40061D63F /* DDHidLib.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				BCD4FC9E0ECF487D0060B8AA /* IOKit.framework in Frameworks */,
 			);
@@ -65,10 +89,54 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0A8AAC4413E6D43200D783AB /* DDHidLib */,
 				BCD4FC690ECF468A0060B8AA /* KMWindowController.h */,
 				BCD4FC6A0ECF468A0060B8AA /* KMWindowController.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		0A8AAC4413E6D43200D783AB /* DDHidLib */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AAC4513E6D43200D783AB /* DDHidAppleRemote.h */,
+				0A8AAC4613E6D43200D783AB /* DDHidAppleRemote.m */,
+				0A8AAC4713E6D43200D783AB /* DDHidDevice.h */,
+				0A8AAC4813E6D43200D783AB /* DDHidDevice.m */,
+				0A8AAC4913E6D43200D783AB /* DDHidElement.h */,
+				0A8AAC4A13E6D43200D783AB /* DDHidElement.m */,
+				0A8AAC4B13E6D43200D783AB /* DDHidEvent.h */,
+				0A8AAC4C13E6D43200D783AB /* DDHidEvent.m */,
+				0A8AAC4D13E6D43200D783AB /* DDHidJoystick.h */,
+				0A8AAC4E13E6D43200D783AB /* DDHidJoystick.m */,
+				0A8AAC4F13E6D43200D783AB /* DDHidKeyboard.h */,
+				0A8AAC5013E6D43200D783AB /* DDHidKeyboard.m */,
+				0A8AAC5113E6D43200D783AB /* DDHidKeyboardBarcodeScanner.h */,
+				0A8AAC5213E6D43200D783AB /* DDHidKeyboardBarcodeScanner.m */,
+				0A8AAC5313E6D43200D783AB /* DDHidLib.h */,
+				0A8AAC5413E6D43200D783AB /* DDHidMouse.h */,
+				0A8AAC5513E6D43200D783AB /* DDHidMouse.m */,
+				0A8AAC5613E6D43200D783AB /* DDHidQueue.h */,
+				0A8AAC5713E6D43200D783AB /* DDHidQueue.m */,
+				0A8AAC5813E6D43200D783AB /* DDHidStandardUsages.plist */,
+				0A8AAC5913E6D43200D783AB /* DDHidUsage.h */,
+				0A8AAC5A13E6D43200D783AB /* DDHidUsage.m */,
+				0A8AAC5B13E6D43200D783AB /* DDHidUsageTables.h */,
+				0A8AAC5C13E6D43200D783AB /* DDHidUsageTables.m */,
+				0A8AAC5D13E6D43200D783AB /* NSDictionary+DDHidExtras.h */,
+				0A8AAC5E13E6D43200D783AB /* NSDictionary+DDHidExtras.m */,
+				0A8AAC5F13E6D43200D783AB /* NSXReturnThrowError */,
+			);
+			path = DDHidLib;
+			sourceTree = "<group>";
+		};
+		0A8AAC5F13E6D43200D783AB /* NSXReturnThrowError */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AAC6013E6D43200D783AB /* NSXReturnThrowError.h */,
+				0A8AAC6113E6D43200D783AB /* NSXReturnThrowError.m */,
+			);
+			path = NSXReturnThrowError;
 			sourceTree = "<group>";
 		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
@@ -82,7 +150,6 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A09F4EF13E5C723006AE621 /* DDHidLib.framework */,
 				BCD4FC9D0ECF487D0060B8AA /* IOKit.framework */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
@@ -146,7 +213,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "KeyMaps" */;
 			buildPhases = (
-				BCD4FC820ECF47FE0060B8AA /* Copy Frameworks */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
@@ -192,6 +258,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				0A8AAC6B13E6D43200D783AB /* DDHidStandardUsages.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +271,19 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				BCD4FC6B0ECF468A0060B8AA /* KMWindowController.m in Sources */,
+				0A8AAC6213E6D43200D783AB /* DDHidAppleRemote.m in Sources */,
+				0A8AAC6313E6D43200D783AB /* DDHidDevice.m in Sources */,
+				0A8AAC6413E6D43200D783AB /* DDHidElement.m in Sources */,
+				0A8AAC6513E6D43200D783AB /* DDHidEvent.m in Sources */,
+				0A8AAC6613E6D43200D783AB /* DDHidJoystick.m in Sources */,
+				0A8AAC6713E6D43200D783AB /* DDHidKeyboard.m in Sources */,
+				0A8AAC6813E6D43200D783AB /* DDHidKeyboardBarcodeScanner.m in Sources */,
+				0A8AAC6913E6D43200D783AB /* DDHidMouse.m in Sources */,
+				0A8AAC6A13E6D43200D783AB /* DDHidQueue.m in Sources */,
+				0A8AAC6C13E6D43200D783AB /* DDHidUsage.m in Sources */,
+				0A8AAC6D13E6D43200D783AB /* DDHidUsageTables.m in Sources */,
+				0A8AAC6E13E6D43200D783AB /* NSDictionary+DDHidExtras.m in Sources */,
+				0A8AAC6F13E6D43200D783AB /* NSXReturnThrowError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,26 +351,26 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

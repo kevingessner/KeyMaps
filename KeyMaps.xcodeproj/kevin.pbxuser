@@ -44,8 +44,17 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	0A8AAC4813E6D43200D783AB /* DDHidDevice.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 7553}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 970}";
+			sepNavWindowFrame = "{{19, 0}, {1230, 778}}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 0A09F4DF13E5C702006AE621 /* KeyMaps */;
 		activeTarget = 8D1107260486CEB800E47090 /* KeyMaps */;
 		addToTargets = (
@@ -56,8 +65,8 @@
 			0A09F4DF13E5C702006AE621 /* KeyMaps */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 333826430;
-			PBXWorkspaceStateSaveDate = 333826430;
+			PBXPerProjectTemplateStateSaveDate = 333894562;
+			PBXWorkspaceStateSaveDate = 333894562;
 		};
 		sourceControlManager = 0A09F4ED13E5C719006AE621 /* Source Control */;
 		userBuildSettings = {
@@ -79,8 +88,8 @@
 	};
 	BCD4FC6A0ECF468A0060B8AA /* KMWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1349, 627}}";
-			sepNavSelRange = "{794, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 650}}";
+			sepNavSelRange = "{188, 0}";
 			sepNavVisRange = "{0, 841}";
 			sepNavWindowFrame = "{{19, 0}, {1230, 778}}";
 		};

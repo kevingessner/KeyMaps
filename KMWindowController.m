@@ -7,7 +7,7 @@
 //
 
 #import "KMWindowController.h"
-#import <DDHidLib/DDHidLib.h>
+#import "DDHidLib/DDHidLib.h"
 
 
 @implementation KMWindowController
